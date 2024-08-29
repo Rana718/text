@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-nj+!-sbc%akxkjn1q()q^1&q6wicw%+wd$69is_tck4h&)$isc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['text-tjgj.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
@@ -69,6 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
+
 
 
 # Database
