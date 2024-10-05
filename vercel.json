@@ -1,0 +1,13 @@
+{
+  "builds": [{
+    "src": "Playlric/Playlric/wsgi.py",
+    "use": "@vercel/python",
+    "config": { "maxLambdaSize" : "15mb","runtime": "python3.12"  }
+  }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Playlric/Playlric/wsgi.py"
+    }
+  ]
+}
